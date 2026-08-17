@@ -1,34 +1,34 @@
-# 粉纸 PDF 工具箱
+# Pink Paper PDF Tools
 
-一个免费、无需登录的浏览器 PDF 小工具。文件仅在用户设备上处理，不会上传到服务器。
+A free, no-sign-up browser PDF utility. Files are processed entirely on the user's device and are never uploaded to a server.
 
-## 功能
+## Features
 
-- 合并多个 PDF
-- 将 JPG、PNG、WebP 图片转为 PDF
-- 混合排列 PDF 与图片
-- 拖拽或按钮调整文件顺序
-- 自定义导出文件名
-- 添加中英文文字水印
-- 电脑与手机端自适应
+- Merge multiple PDF files
+- Convert JPG, PNG, and WebP images to PDF
+- Arrange PDFs and images in one combined document
+- Reorder files with drag and drop or accessible buttons
+- Customize the exported file name
+- Add English or Chinese text watermarks
+- Responsive on desktop and mobile
 
-## 本地启动
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 验证
+## Validation
 
 ```bash
 npm test
 ```
 
-## 技术与开源说明
+## Technology and Open Source
 
-项目使用 React、TypeScript 与 [pdf-lib](https://github.com/Hopding/pdf-lib)，受开源浏览器 PDF 工具的本地处理思路启发。本项目自身采用 MIT License。
+Built with React, TypeScript, and [pdf-lib](https://github.com/Hopding/pdf-lib). The project was inspired by the privacy-first, local-processing approach of open-source browser PDF tools and is released under the MIT License.
 
-## 隐私
+## Privacy
 
-所有 PDF 与图片均在浏览器内完成解析、合并和导出，不会上传至第三方服务。
+All PDFs and images are parsed, combined, watermarked, and exported inside the browser. Nothing is sent to a third-party service.
